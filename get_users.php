@@ -1,7 +1,7 @@
 <?php
 include 'db_config.php';
 
-$sql = "SELECT id, name, email FROM users";
+$sql = "SELECT * FROM users";
 $result = $koneksi->query($sql);
 
 $users = array();
